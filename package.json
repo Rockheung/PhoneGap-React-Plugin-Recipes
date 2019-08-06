@@ -1,0 +1,46 @@
+{
+  "name": "phonegap-react-plugin-recipes",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-ios": "^5.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "prepare": "phonegap prepare",
+    "ios": "phonegap emulate ios",
+    "android": "phonegap emulate android",
+    "preios": "phonegap build",
+    "preandroid": "phonegap build; adb reverse tcp:4000 tcp:4000",
+    "postbuild": "cp -a build/. www",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}

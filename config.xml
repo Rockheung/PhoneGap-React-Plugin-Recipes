@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="phonegap.react.plugin.recipes" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PhoneGap React Plugin Recipes</name>
+    <description>
+        A blank PhoneGap app with React 16
+    </description>
+    <author email="rockheung@gmail.com" href="https://github.com/Rockheung">
+        Rockheung
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="ios" spec="^5.0.1" />
+    <engine name="android" spec="~8.0.0" />
+</widget>
