@@ -6,6 +6,7 @@
   "dependencies": {
     "cordova-android": "^8.0.0",
     "cordova-ios": "^5.0.1",
+    "ios-sim": "^8.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -14,8 +15,8 @@
     "prepare": "phonegap prepare",
     "ios": "phonegap emulate ios",
     "android": "phonegap emulate android",
-    "preios": "phonegap build",
-    "preandroid": "phonegap build; adb reverse tcp:4000 tcp:4000",
+    "preios": "phonegap build ios",
+    "preandroid": "phonegap build android; adb reverse tcp:4000 tcp:4000",
     "postbuild": "cp -a build/. www",
     "start": "react-scripts start",
     "build": "react-scripts build",

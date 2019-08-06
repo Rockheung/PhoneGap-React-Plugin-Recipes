@@ -10,5 +10,5 @@
     <content src="index.html" />
     <access origin="*" />
     <engine name="ios" spec="^5.0.1" />
-    <engine name="android" spec="~8.0.0" />
+    <engine name="android" spec="^8.0.0" />
 </widget>
