@@ -1,6 +1,6 @@
-.vscode
-typings
-jsconfig.json
+/.vscode
+/typings
+/jsconfig.json
 
 
 # Created by https://www.gitignore.io/api/cordova,apachecordova
